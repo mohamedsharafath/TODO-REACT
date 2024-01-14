@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+.Todo{
+  background-color: rgb(168, 95, 0);
+  display: inline-flex;
+  margin-top: 10px;
+  width: 210px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  /* margin-left: 180px; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.completed{
+  text-decoration: line-through;
+  
+}
+body{
+  background-color: rgb(41, 8, 72);
+  height: 100%;
+  
+  padding-left: 80vh;
+  padding-top: 25vh;
+  align-items: center; 
+  justify-content: center;
+}
+.Todowrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(98, 35, 156);
+  width: 300px;
+  border-radius: 30px;
+  padding: 40px 20px 30px 25px;
+ 
+}
